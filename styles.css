@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Norse;
+    src: url(./fonts/Norse-Bold.otf);
+  }
+  
+
+.container{
+   display:flex;
+   /*flex-direction:column;*/
+    /*background-color: gray;*/
+}
+
+img{
+   /*position: relative;*/
+   width: 30vw;
+   height: 100%;
+}
+
+.image-container {
+    margin-left: -1%;
+    height: 100vh;
+    margin-top: -10px;
+}
+
+.image-title {
+    position: absolute;
+    text-align: center;
+    bottom: 80vh;
+    font-family: Norse,sans-serif;
+    color: red;
+    background-color: rgba(71, 209, 225, 0.63);
+    height: .78em;
+    font-size: 3.2em;
+    width: 30vw;
+   
+     
+}
+
+.logo {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    bottom: 40px;
+    left: 150px;
+}
+
+.signup {
+    margin-top: -10px;
+    width: 100%;
+    background-color: rgb(244, 237, 229);
+    padding-top: 10vh;
+}
+.signup-text {
+    padding-left: 25px;
+    font-weight:400;
+    font-size: 20px;
+    margin-bottom: 25px;
+    width: 40vw;
+}
+
+.row{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+   margin-left: 30px; 
+}
+
+input {
+    border-color:black ;
+    border-radius: 20px 5px 20px 5px;
+    width: 200px;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form {
+    background-color: rgba(71, 209, 225, 0.63);
+    padding-top: 10px;
+    height: 250px ;
+    box-shadow: 10px 5px 5px red;
+}
+
+.middle {
+padding-bottom: 40px;
+/*background-color: green;*/
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 45px;
+    height: 30px;
+    width: 175px;
+    color: rgb(244, 237, 229);
+    background-color: rgb(9, 22, 9);
+    box-shadow: 0px 2px lightgoldenrodyellow;
+    border-radius: 10px;
+    border-style: none;
+    font-size: larger;
+}
+
+p {
+    margin-top: 90px;
+    margin-left: 45px;
+}
+
+a {
+    color: red;
+    
+}
+
+input:focus{
+    outline:none;
+    border-color: red;
+    box-shadow:0 0 10px red;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+        <div class="image-container">
+            <img src="./images/tiger.jpg" alt="Image of Tiger in a Forest">
+            <div class="image-title">NATE-O<img class="logo" src="./images/tiger_logo.png"></div>
+        </div>
+    <div class = "signup">
+        <div class="signup-text">
+            This is not a real online service! You know you need something
+            like this in your life to help you realize your deepest dreams.
+            Sign up now to get started.
+            <br>
+            <br>
+            You <em>know</em> you want to 
+        </div>
+        
+
+        <!-- Sign Up Form-->
+        <form action="" method="post"> 
+            <h2>Let's Do This!</h2>
+        <ul>
+            <div class="row">
+            <li>
+            <label for="first_name">FIRST NAME</label>
+            <br>
+            <input type="text" id="first_name" name="first_name">
+            </li>
+
+            <li>
+            <label for="last_name">LAST NAME</label>
+            <br>
+            <input type="text" id="last_name" name="last_name">
+            </li>
+        </div>
+        <div class="row">
+            <li>
+            <label for="email">EMAIL</label>
+            <br>
+            <input type="email" id="email" name="email">
+            </li>
+            <li>
+            <!-- Use pattern to enforce constraint on tel-->
+            <label for="phone_no">PHONE NUMBER</label>
+            <br>
+            <input type="tel" id="phone_no" name="phone_no">
+            </li>
+        </div>
+        <div class="row">
+            <li>
+            <label for="password">PASSWORD</label>
+            <br>
+            <input type="text" id="password" name="password">
+            </li>
+            <li>
+            <label for="conf_pw">CONFIRM PASSWORD</label>
+            <br>
+            <input type="text" id="confirm_password" name="conf_pw">
+            </li>
+            </div>
+        </ul>
+    
+        <button id="butt" type="submit">Create Account</button>
+    </form>
+        <p>Already have an account? <a href="url.com"> Log in</a> </p>
+    
+        
+    
+</div>
+    
+</body>
+</html>
